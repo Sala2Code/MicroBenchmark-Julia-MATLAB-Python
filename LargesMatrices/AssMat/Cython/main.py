@@ -1,7 +1,7 @@
 from ParamBeta import *
 
 t=0
-n=5
+n=10
 for i in range(n):
     t0 = time.time()
     main()
