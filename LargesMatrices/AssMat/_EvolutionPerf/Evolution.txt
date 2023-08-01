@@ -1,0 +1,22 @@
+Paramètres : 
+epsilon = 1e-2
+nPeriod = 1
+beta = 1
+k = 50	
+
+Résultats :
+1_BasicCode :
+	Time  (mean ± σ):   1.814 s ± 38.884 ms
+	Memory estimate: 10.10 GiB, allocs estimate: 2288880.
+2_Preallocation :
+	Time  (mean ± σ):   78.446 ms ±  2.108 m
+	Memory estimate: 31.59 MiB, allocs estimate: 1054539.
+3_FonctionsMutables
+	Time  (mean ± σ):   21.071 ms ±  1.867 ms 
+	Memory estimate: 16.64 MiB, allocs estimate: 74759.
+4_StaticArrays
+	Time  (mean ± σ):   17.500 ms ±  2.275 ms
+	Memory estimate: 10.95 MiB, allocs estimate: 262.
+5_InboundsViews
+	Time  (mean ± σ):   16.827 ms ± 952.905 μs
+	Memory estimate: 9.98 MiB, allocs estimate: 252.

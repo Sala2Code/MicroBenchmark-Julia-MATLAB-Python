@@ -1,0 +1,13 @@
+function BxBetareturn = BxBeta(x, y, beta, eta)
+  t1 = pi ^ 2;
+  t2 = beta ^ 2;
+  t4 = x ^ 2;
+  t5 = t4 - x;
+  t6 = t5 ^ 2;
+  t8 = 0.3e1 * pi * y;
+  t9 = sin(t8);
+  t10 = t9 ^ 2;
+  t17 = cos(t8);
+  t20 = (t17 * (2 * x - 1) * beta + pi) ^ 2;
+  t22 = sqrt(0.9e1 * t1 * t10 * t2 * t6 + t20);
+  BxBetareturn = 0.3e1 * t9 * t5 * beta * pi / t22;
