@@ -1,0 +1,19 @@
+Paramètres :
+aTol = 1.e-10
+rTol = 1.e-10
+beta = 3
+NpointsX = 15
+NpointsY = 15
+ 
+
+Résultats :
+1_BasicCode : 
+	Time  (mean ± σ):   89.408 ms ±   5.988 ms
+	Memory estimate: 63.25 MiB, allocs estimate: 1636593.
+2_Typed :
+	Time  (mean ± σ):   41.247 ms ±  3.485 ms
+	 Memory estimate: 47.83 MiB, allocs estimate: 628662.
+3_StaticArrays :
+	Time  (mean ± σ):   9.081 ms ±  957 µs
+	Memory estimate: 2.19 MiB, allocs estimate: 27547.
+
