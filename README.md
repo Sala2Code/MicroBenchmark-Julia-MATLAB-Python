@@ -2,7 +2,9 @@
 Un micro-benchmark comparant le temps d'exécution de Julia, MATLAB et Python avec Numba et Cython pour le domaine scientifique.
 
 Tous les codes utilisés pour le rapport (benchmark.pdf) sont présent sur ce GitHub.
-N'hésitez pas à proposer des optimisatons aux codes proposés, particulièrement si des résultats changent considérablement !
+N'hésitez pas à proposer des optimisatons aux codes proposés, particulièrement si des résultats changent considérablement ! 
+
+Travail réalisé pour mon stage.
 
 ## Résultats 
 
