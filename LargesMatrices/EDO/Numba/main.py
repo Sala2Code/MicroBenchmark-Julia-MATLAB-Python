@@ -32,7 +32,7 @@ def main():
 
 with objmode():
     t = 0
-    n=1
+    n=10
     for i in range(n):
         t1 = time.time()
         main()  
